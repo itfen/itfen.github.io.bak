@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://itfen.github.io
+url: http://itfen.github.io/itfen.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,10 +72,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: jekyll-theme-time-machine
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: git@github.com:itfen/itfen.github.io.git
 type: git
+<<<<<<< HEAD
 branch: master
+=======
+branch: master
+>>>>>>> 805b0b5bb3eeb679c0e7c128aed1e3d94381195b
